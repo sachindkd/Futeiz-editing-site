@@ -43,35 +43,15 @@ export default function AboutSection() {
               others develop their skills and create stunning football content.
             </p>
             
-            <div className="flex items-center gap-8">
-              <motion.div 
-                className="text-center"
-                initial={{ opacity: 0, scale: 0.8 }}
-                animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }}
-                transition={{ duration: 0.5, delay: 0.2 }}
-              >
-                <div className="text-4xl font-bold text-accent mb-1">3+</div>
-                <div className="text-sm text-gray-400">Years Experience</div>
-              </motion.div>
-              <motion.div 
-                className="text-center"
-                initial={{ opacity: 0, scale: 0.8 }}
-                animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }}
-                transition={{ duration: 0.5, delay: 0.4 }}
-              >
-                <div className="text-4xl font-bold text-accent mb-1">200+</div>
-                <div className="text-sm text-gray-400">Projects</div>
-              </motion.div>
-              <motion.div 
+            <motion.div 
                 className="text-center"
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }}
                 transition={{ duration: 0.5, delay: 0.6 }}
               >
-                <div className="text-4xl font-bold text-accent mb-1">1K+</div>
-                <div className="text-sm text-gray-400">Community Members</div>
+                <div className="text-4xl font-bold text-accent mb-1">Join Our</div>
+                <div className="text-xl text-gray-400">Growing Community</div>
               </motion.div>
-            </div>
           </div>
         </motion.div>
       </div>

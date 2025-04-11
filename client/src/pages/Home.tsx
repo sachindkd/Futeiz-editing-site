@@ -1,8 +1,7 @@
 import { useEffect, useRef } from 'react';
 import HeroSection from '@/components/HeroSection';
 import AboutSection from '@/components/AboutSection';
-import WorkShowcaseSection from '@/components/WorkShowcaseSection';
-import LatestWorkSection from '@/components/LatestWorkSection';
+import FeatureSection from '@/components/FeatureSection';
 import DiscordSection from '@/components/DiscordSection';
 import ConnectSection from '@/components/ConnectSection';
 import Footer from '@/components/Footer';
@@ -46,8 +45,7 @@ export default function Home() {
     <div className="bg-background text-white font-inter custom-scrollbar">
       <HeroSection />
       <AboutSection />
-      <WorkShowcaseSection />
-      <LatestWorkSection />
+      <FeatureSection />
       <DiscordSection />
       <ConnectSection />
       <Footer />

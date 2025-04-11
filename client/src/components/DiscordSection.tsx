@@ -113,7 +113,7 @@ export default function DiscordSection() {
                   </div>
                 </div>
                 
-                <div className="text-sm text-gray-400 mb-4">1,000+ members online</div>
+                <div className="text-sm text-gray-400 mb-4">Growing community</div>
               </div>
             </div>
           </motion.div>
